@@ -1,0 +1,15 @@
+interface:
+  display_name: "GoSalty External Agent"
+  short_description:
+    "Connect AI agents to GoSalty workflows such as partner events, locations,
+    onboarding, and knowledge."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#14B8A6"
+  default_prompt:
+    "Help me connect an external AI agent to GoSalty. Use the existing Convex
+    agent tools and mutations where possible, require confirmation for
+    dashboard mutations, and verify the implementation."
+
+policy:
+  allow_implicit_invocation: true

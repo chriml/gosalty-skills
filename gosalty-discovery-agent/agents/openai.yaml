@@ -1,0 +1,12 @@
+interface:
+  display_name: "GoSalty Discovery Agent"
+  short_description: "Expand GoSalty tasks into rider-centered discovery context."
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#0EA5E9"
+  default_prompt:
+    "Use $gosalty-discovery-agent to expand this GoSalty task into the right
+    framing, rider behavior assumptions, context, risks, and next questions."
+
+policy:
+  allow_implicit_invocation: true
