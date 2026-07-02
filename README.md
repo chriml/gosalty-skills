@@ -9,11 +9,20 @@ Codex skills for working with GoSalty product, partner, and agent workflows.
 
 ## Use
 
-Install or copy the skill folders into a Codex skills directory, then invoke them by name:
+The canonical skill folders live at the repository root. This repo also exposes
+them through the current discovery paths for Codex and Claude Code:
+
+- Codex/ChatGPT-style agents: `.agents/skills/`
+- Claude Code: `.claude/skills/`
+
+Invoke them by name:
 
 ```text
 Use $gosalty-discovery-agent to refine this event discovery story.
 Use $gosalty-external-agent to add a partner event tool.
 ```
+
+You can also copy or symlink the root skill folders into a user-level skills
+directory if you want them available outside this repository.
 
 These skills are intentionally scoped to GoSalty-specific interaction patterns. Backend implementation work should still follow the target repository's local instructions.
